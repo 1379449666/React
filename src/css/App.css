@@ -1,0 +1,29 @@
+@charset "UTF-8";
+html {
+  font-size: 625%;
+  /*100 ÷ 16 × 100% = 625%*/ }
+
+@media screen and (min-width: 310px) and (max-width: 330px) and (orientation: portrait) {
+  html {
+    font-size: 595%; } }
+@media screen and (min-width: 384px) and (max-width: 399px) and (orientation: portrait) {
+  html {
+    font-size: 703%; } }
+@media screen and (min-width: 400px) and (max-width: 413px) and (orientation: portrait) {
+  html {
+    font-size: 732.4%; } }
+@media screen and (min-width: 414px) and (max-width: 431px) and (orientation: portrait) {
+  html {
+    font-size: 750%; } }
+@media screen and (min-width: 432px) and (max-width: 479px) and (orientation: portrait) {
+  html {
+    font-size: 781.25%; } }
+@media screen and (min-width: 750px) and (max-width: 770px) and (orientation: portrait) {
+  html {
+    font-size: 1250%; } }
+.App {
+  text-align: left;
+  /* text-align: center; */
+  position: relative;
+  
+}

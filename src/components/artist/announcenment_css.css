@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+.top{
+    /* background-color: pink; */
+    height: 182px;
+    width: 100%;
+    padding: 20px 16px; 
+    margin-bottom: 10px;
+}
+.top> h4 {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.top > span {
+    color: #777777;
+    font-size: 13px;
+}
+.top > p {
+    color: #000;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.top > div {
+    margin: 15px;
+    display: flex
+}
+.top > div >div {
+    flex: 1
+}
+.top > div >div > p {
+    margin-top: 6px;
+    color: #777777;
+}
